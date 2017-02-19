@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>防丢卫士</title>
+    <link rel="stylesheet" href="css/main.css">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge"/>
+</head>
+<body>
+<header class="clearfix">
+    <div class="content">
+        <!--顶部左侧图片-->
+        <div class="header_left"><a href="#"></a> </div>
+
+        <div class="header_right">
+            <ul>
+                <li class="current"><a href="#">首页</a></li>
+                <li><a href="#">常见问题</a></li>
+                <li><a href="#">支持机型</a></li>
+                <li><a href="#">官方微博</a></li>
+                <li><a href="#">官方论坛</a></li>
+                <li class="down_icon"><a href="#" class="android_down"></a>
+                    <div id="android"></div>
+                </li>
+                <li class="down_icon"><a href="#" class="ios_down"></a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<section id="banner">
+    <div class="content">
+        <div class="title"><div class="fangdiu"></div></div>
+        <p></p>
+        <ul>
+            <li id="intro_1"><i></i><b></b></li>
+            <li id="intro_2"><i></i><b></b></li>
+            <li id="intro_3"><i></i><b></b></li>
+            <li id="intro_4"><i></i><b></b></li>
+            <li id="intro_5"><i></i><b></b></li>
+        </ul>
+    </div>
+</section>
+<section id="description">
+    <div><p class="description_1"></p></div>
+    <div><p class="description_2"></p></div>
+    <div><p class="description_3"></p></div>
+</section>
+<section id="one_btn_call" class="clearfix">
+    <div class="sec-left">
+        <p class="call-icon"></p>
+        <p class="call-description"></p>
+    </div>
+    <div class="sec-right">
+        <p class="mobile-call"></p>
+    </div>
+</section>
+<section id="notice">
+    <div class="notice-img"></div>
+</section>
+<section id="location">
+    <div class="location-memory"></div>
+</section>
+<section id="icons"></section>
+<footer>
+    <div class="footer-up clearfix">
+        <div class="follow-us">
+            <h3>关注我们</h3>
+            <ul>
+                <li><a href="http://bbs.360.cn/forum.php?mod=forumdisplay&fid=2374&page=1" target="_blank">官方论坛</a></li>
+                <li><a href="http://weibo.com/u/5085105013" target="_blank">新浪微博</a></li>
+            </ul>
+        </div>
+
+        <div class="relate-websites">
+            <h3>相关网站</h3>
+            <ul>
+                <li><a href="#">360硬件专区</a></li>
+                <li><a href="#">360安全路由</a></li>
+                <li><a href="#">360儿童卫士</a></li>
+            </ul>
+        </div>
+
+        <div class="qh-code clearfix">
+            <div class="micro-blog"></div>
+            <div class="wechat"></div>
+        </div>
+    </div>
+
+    <div class="footer-down">
+        <p>Copyright ©2005-2017 360.cn All Rights Reserved. 360安全中心</p>
+    </div>
+
+
+
+</footer>
+
+
+<script>
+    var android_down = document.getElementsByClassName('android_down')[0]
+     android_down.onmouseover=function () {
+        document.getElementById('android').style.display='block';
+    }
+    android_down.onmouseout=function () {
+        document.getElementById('android').style.display='none';
+    }
+</script>
+</body>
+</html>
